@@ -18,7 +18,7 @@ To get started with Semantic Search Engine, follow these steps:
    ```bash
    git clone https://github.com/your-username/semantic-search.git
 2. Install the required dependencies:
-```bash
+
 pip install -r requirements.txt 
 
 3.Set up your OpenAI API key:
@@ -33,7 +33,7 @@ Sign up for a Pinecone account at https://www.pinecone.io if you haven't already
 Retrieve your Pinecone API key.
 In the main.py file, replace YOUR_PINECONE_API_KEY with your actual API key.
 
-4.Run the application:
+5.Run the application:
 
 streamlit run app.py
 Open your browser and access the application at http://localhost:8501.
@@ -53,6 +53,6 @@ Click the "Submit" button.
 3.View the answer:
 
 The answer to your question will be displayed below the text area.
-Contributing
+## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. 
 For major changes, please open an issue first to discuss the proposed changes.
