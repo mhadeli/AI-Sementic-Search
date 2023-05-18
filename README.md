@@ -55,3 +55,6 @@ The answer to your question will be displayed below the text area.
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. 
 For major changes, please open an issue first to discuss the proposed changes.
+
+## Live Website Link
+https://ai-sementic-search.streamlit.app/
