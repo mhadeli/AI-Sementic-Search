@@ -18,8 +18,8 @@ To get started with Semantic Search Engine, follow these steps:
    ```bash
    git clone https://github.com/your-username/semantic-search.git
 2. Install the required dependencies:
-
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt 
 
 3.Set up your OpenAI API key:
 
@@ -38,7 +38,7 @@ In the main.py file, replace YOUR_PINECONE_API_KEY with your actual API key.
 streamlit run app.py
 Open your browser and access the application at http://localhost:8501.
 
-##Usage
+## Usage
 1.Upload a file:
 
 Click on the "Upload Document" button and select a file in PDF, DOCX, or TXT format.
