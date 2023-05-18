@@ -18,8 +18,8 @@ To get started with Semantic Search Engine, follow these steps:
    ```bash
    git clone https://github.com/your-username/semantic-search.git
 2. Install the required dependencies:
-
-pip install -r requirements.txt 
+   ```bash
+   pip install -r requirements.txt 
 
 3.Set up your OpenAI API key:
 
@@ -48,7 +48,6 @@ Wait for the file to be processed and indexed.
 
 In the text area below, enter your question related to the document.
 Click the "Submit" button.
-
 
 3.View the answer:
 
