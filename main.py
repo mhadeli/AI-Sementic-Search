@@ -60,7 +60,7 @@ def vectors(_data, OPENAI_API_KEY):
     PINECONE_API_ENV = st.secrets.get("PINECONE_API_ENV")
     embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
     pinecone.init(api_key=PINECONE_API_KEY, environment=PINECONE_API_ENV)
-    docsearch = Pinecone.from_texts([t.page_content for t in texts], embeddings, index_name="sementicsearch")
+    docsearch = Pinecone.from_texts([t.page_content for t in texts], embeddings, index_name="semanticsearch")
     llm = OpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
     chain = load_qa_chain(llm, chain_type="stuff")
     return docsearch, chain
